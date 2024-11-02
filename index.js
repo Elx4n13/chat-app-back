@@ -15,7 +15,7 @@ const port = process.env.PORT || 3000;
 
 // Connect to MongoDB
 const databaseURL = process.env.MONGO_URI;
-const allowedOrigins = ["http://localhost:5173", "https://chat-app-client-zeta-umber.vercel.app"];
+const allowedOrigins = ["http://localhost:5173", "https://chat-app-client-zeta-umber.vercel.app","https://chat-app-seven-lake-22.vercel.app"];
 
 app.use(
   cors({
