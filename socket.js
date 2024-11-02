@@ -2,7 +2,7 @@ import { Server as SocketIoServer } from "socket.io";
 import Message from "./models/MessagesModel.js";
 import Channel from "./models/ChannelModel.js";
 const setupSocket = (server) => {
-  const allowedOrigins = ["http://localhost:5173", "https://chat-app-client-zeta-umber.vercel.app",""https://chat-app-seven-lake-22.vercel.app""];
+  const allowedOrigins = ["http://localhost:5173", "https://chat-app-client-zeta-umber.vercel.app","https://chat-app-seven-lake-22.vercel.app"];
   const io = new SocketIoServer(server, {
     cors: {
       origin: allowedOrigins,
